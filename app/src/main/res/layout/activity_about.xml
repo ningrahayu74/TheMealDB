@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/tvMx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="37dp"
+        android:gravity="center"
+        android:text="About"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="98dp"
+        android:gravity="center"
+        android:text="Kelompok :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvMz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="126dp"
+        android:gravity="center"
+        android:text="1. Ning Rahayu (1703040060)"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvMa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="154dp"
+        android:gravity="center"
+        android:text="1. Mira Rahayu (1703040063)"
+        android:textSize="20sp" />
+
+</RelativeLayout>
